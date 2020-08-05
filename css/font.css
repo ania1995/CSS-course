@@ -1,5 +1,6 @@
 article{
     font-size: 16px;
+    background-color: rgb(211, 206, 206);
 }
 
 article h2{
@@ -19,10 +20,12 @@ article h2, article p{
 article p:first-of-type{
     font-weight: bolder;
     font-style: italic;
+    color: rgba(0, 255, 255, 0.596);
 }
 
 article p:nth-of-type(2){
     font-weight: 700;
+    color: #6bacca;
 }
 
 article p:nth-of-type(3){

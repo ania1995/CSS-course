@@ -22,7 +22,7 @@
 /* Style all p tags*/
 p {
     font-size: 12px;
-    color: blueviolet; 
+    color: blueviolet /*!important*/; 
 }
 
 .test{

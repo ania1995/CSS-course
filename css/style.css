@@ -55,10 +55,26 @@ a{
     color: rgba(13, 82, 187, 0.527);
 }
 
+/*Style all links which have some title*/ 
+/*it could be also [title ="NOTHING"] // more specify*/
+/*[title ~="NOTHING"] // style links where some part of title is "NOTHING"*/
+a[title]{
+    font-weight: bold;
+}
+/* $= says that end of href mustb be "pdf"*/
+a[href $= "pdf"]{
+    font-size: smaller; 
+}
+
 span{
     text-transform: uppercase;
     display: block; /*moved all .deck in separate line*/
     color: orangered;
+}
+/*Style all paragraph which have some class*/
+span[class]{
+    font-style: italic;
+    font-weight: bolder;
 }
 
 .deck {

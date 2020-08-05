@@ -18,7 +18,7 @@
 /* Style all p tags*/
 p {
     font-size: 12px;
-    color: blueviolet /*!important*/; 
+    color: rgb(101, 90, 110) /*!important*/; 
 }
 
  /*Style only child's paragraph of main-content ID */
@@ -28,6 +28,13 @@ p {
 
 #sub-content p{
     color: palevioletred;
+}
+
+/*Color only first paragraph after h2 in all-articles ID*/
+#all-articles h2 + p{ 
+ color: rgb(119, 75, 153);
+ font-style: italic;
+ font-weight: bold;
 }
 
 .test{

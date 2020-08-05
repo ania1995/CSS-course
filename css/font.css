@@ -40,6 +40,40 @@ article p:nth-of-type(5){
     text-transform: full-width;
 }
 
-article p:last-of-type{
+#links a{
+    text-decoration: none;
+    color: darksalmon;
+    font-weight: bold;
+  }
+
+#links a:hover{
+    text-decoration: none;
+    color: grey;
+    text-decoration: underline;
+    background-color: rgba(143, 188, 143, 0.342);
+  }
+  
+
+#links a:nth-of-type(1){
+    
+}
+
+#links a:nth-of-type(2):hover{
+
+}
+
+#links a:nth-of-type(3){
+    
+}
+
+#links a:nth-of-type(4){
+    
+}
+
+#links a:nth-of-type(5){
+    
+}
+
+#links :nth-of-type(6){
     
 }

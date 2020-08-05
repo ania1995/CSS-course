@@ -1,6 +1,7 @@
 article{
     font-size: 16px;
     background-color: rgb(211, 206, 206);
+    
 }
 
 article h2{
@@ -9,7 +10,7 @@ article h2{
 }
 
 article p{
-    font-size: 75%;
+    font-size: 12px;
     
 }
 
@@ -26,6 +27,7 @@ article p:first-of-type{
 article p:nth-of-type(2){
     font-weight: 700;
     color: #6bacca;
+    letter-spacing: 10px;
 }
 
 article p:nth-of-type(3){
@@ -44,6 +46,8 @@ article p:nth-of-type(5){
     text-decoration: none;
     color: darksalmon;
     font-weight: bold;
+    line-height: 30px;
+    word-spacing: 0.4em; /*letter-spacing: ;*/
   }
 
 #links a:hover{
@@ -53,27 +57,3 @@ article p:nth-of-type(5){
     background-color: rgba(143, 188, 143, 0.342);
   }
   
-
-#links a:nth-of-type(1){
-    
-}
-
-#links a:nth-of-type(2):hover{
-
-}
-
-#links a:nth-of-type(3){
-    
-}
-
-#links a:nth-of-type(4){
-    
-}
-
-#links a:nth-of-type(5){
-    
-}
-
-#links :nth-of-type(6){
-    
-}

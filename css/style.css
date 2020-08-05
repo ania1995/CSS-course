@@ -21,3 +21,12 @@ p {
     font-size: 25px;
     color: royalblue;
 }
+
+a{
+    text-decoration: underline;
+    color: brown;
+}
+
+span{
+    text-transform: uppercase;
+}

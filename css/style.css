@@ -52,3 +52,7 @@ span{
 .deck {
     color:  lightsalmon
 }
+
+ul, li{ /* Targeting Multipul Elements  elem1 , elem2, elem3, ....*/
+    font-style: italic;
+}

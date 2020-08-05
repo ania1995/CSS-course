@@ -26,5 +26,17 @@ article p:nth-of-type(2){
 }
 
 article p:nth-of-type(3){
-    font-weight: 600;
+    text-transform: uppercase;
+}
+ /*Every first letter every word it eill be big*/
+article p:nth-of-type(4){
+    text-transform: capitalize;
+}
+
+article p:nth-of-type(5){
+    text-transform: full-width;
+}
+
+article p:last-of-type{
+    
 }

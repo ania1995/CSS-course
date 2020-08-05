@@ -162,3 +162,58 @@ li.item2 {
     margin-left: 20px;
     padding-left: 15px;
     width: 300px;
+    
+}
+
+#main{
+    background: rgba(200, 200, 200, 0.699);
+    width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+}
+
+/*Border*/
+
+.box{
+    padding: 20px;
+    margin: 40px 20px 20px 20px;
+    float: left;
+    /*border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: grey;*/
+    /*border: 3px solid grey;*/
+
+}
+
+.dashed{
+    border: 3px dashed grey
+}
+
+.dotted{
+    border: 3px dotted grey
+}
+
+.double{
+    border: 10px double grey
+}
+
+.groove{
+    border: 20px groove grey
+}
+
+.inset{
+    border: 20px inset grey
+}
+
+.outset{
+    border: 20px outset grey
+}   
+
+.ridge{
+    border: 20px ridge grey
+}
+
+.solid{
+    border: 3px solid grey
+}

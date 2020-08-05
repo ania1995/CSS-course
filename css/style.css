@@ -139,12 +139,19 @@ li.item2 {
 }
 
 .links {
-    margin: 38px;
-    padding: 30px;
+    margin: 30px 20%; /*top & buttom = 30px, right & left = 20px*/
+    /* margin: 30px 20px 15px 5px; top right buttom left*/
+    padding: 15px;
     border: 1px solid #000;
-    width: 400px;
-    height: 200px;
+    width: 50%;
     color: rgb(155, 155, 155);
     background-color: rgba(211, 211, 211, 0.438);
 }
 
+.links2 {
+    margin: 30px auto; /*top & buttom = 30px, right & left = auto*/
+    padding: 30px;
+    border: 1px solid #000;
+    width: 400px ;
+
+}

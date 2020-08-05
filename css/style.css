@@ -55,6 +55,13 @@ a{
     color: rgba(13, 82, 187, 0.527);
 }
 
+/*Pseudo Selectors*/
+/*syntax:    class:keyword{} */
+a:hover{
+    color: pink;
+    font-size: x-large;
+   }
+
 /*Style all links which have some title*/ 
 /*it could be also [title ="NOTHING"] // more specify*/
 /*[title ~="NOTHING"] // style links where some part of title is "NOTHING"*/
@@ -84,3 +91,4 @@ span[class]{
 ul, li{ /* Targeting Multipul Elements  elem1 , elem2, elem3, ....*/
     font-style: italic;
 }
+

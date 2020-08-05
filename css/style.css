@@ -15,8 +15,12 @@
     font-size: 18px;
 }
 
-#main-containt p {
+#main-content p {
     color: rgb(99, 134, 27);
+}
+
+#sub-content p{
+    color: palevioletred;
 }
 
 /* Style all p tags*/

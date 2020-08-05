@@ -1,0 +1,9 @@
+/*Modification nth of article selectors */
+article:nth-of-type(1){
+    background: wheat;
+    }  
+
+ /*Modification odd of article selectors */   
+article:nth-of-type(odd){
+    font-style: italic;
+    }  

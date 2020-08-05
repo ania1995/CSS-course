@@ -1,9 +1,15 @@
 /*Modification nth of article selectors */
 article:nth-of-type(1){
-    background: wheat;
+    background: rgba(245, 222, 179, 0.603);
     }  
 
  /*Modification odd of article selectors */   
 article:nth-of-type(odd){
     font-style: italic;
     }  
+
+*{
+    margin: 10px;
+    padding: 0;
+    color: rgb(94, 94, 192);
+}

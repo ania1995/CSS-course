@@ -1,0 +1,3 @@
+ID's       100 points
+Classes    10  points
+Elements   1   point

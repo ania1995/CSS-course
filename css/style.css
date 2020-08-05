@@ -101,4 +101,11 @@ span[class]{
 ul, li{ /* Targeting Multipul Elements  elem1 , elem2, elem3, ....*/
     font-style: italic;
 }
-
+/*Modification first child*/
+article p:first-child{
+    font-weight: bold;
+    }  
+/*Modification last child*/  
+article p:last-child{
+    font-style: italic;
+    }  

@@ -1,6 +1,16 @@
 /*Stylesheet file*/
 body{
-    background-color: rgba(47, 79, 79, 0.01);
+    background-color: rgba(47, 79, 79, 0.404);
+    font-family: arial;
+    margin: 0;
+}
+
+#allcontent{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 1px;
+    background: #fff;
+    width: 1200px;
 }
 
 #header {
@@ -59,6 +69,7 @@ strong{
     font-size: 25px;
     color: rgb(8, 50, 114);
     margin-left: 120px;
+    margin-top: 30px;
 }
 
 .background{

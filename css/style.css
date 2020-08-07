@@ -1,10 +1,11 @@
 /*Stylesheet file*/
 
 #header {
-    /*position: absolute;*/
-    top: 0;
-    margin-left: 50px;
-    width: 100%;
+    position: absolute;
+    margin: 50px 20px;
+    padding: 50px 20px;
+    width: auto;
+    display: inline-block;
 }
 
 #header h1 {
@@ -48,6 +49,19 @@ strong{
 .welcome {
     font-size: 25px;
     color: royalblue;
+}
+
+.background{
+    margin: 30px;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+    background-color: darkslategrey;
+    background-image: url(../img/sth.png);
+    background-repeat: no-repeat;
+    background-position: 100% 22%;
+    background-size: 270px;
+    display: inline-block;
 }
 
 a{

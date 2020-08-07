@@ -13,18 +13,13 @@
 /*Border*/
 
 .box{
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: inline-block;
-    /*border-top-width: 2px;
-    border-top-style: solid;
-    border-top-color: grey;*/
-    /*border: 3px solid grey;*/
 }
 
 .dashed{
     border: 3px dashed grey;
-    display: inline-block;
 }
 
 .dotted{

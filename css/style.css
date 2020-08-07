@@ -171,7 +171,10 @@ li.item2 {
     border: 1px solid #000;
     width: 50%;
     color: rgb(155, 155, 155);
-    background-color: rgba(211, 211, 211, 0.226);
+    /*moz Mozzilla*/
+    background: -moz-linear-gradient( left, rgb(211, 211, 211, 0.226) 30%,  rgba(24, 48, 45, 0.4) 100%);
+    background: -webkit-linear-gradient(left, rgb(211, 211, 211, 0.226) 30%,  rgba(24, 48, 45, 0.4) 100%);
+    background: linear-gradient(lleft, rgb(211, 211, 211, 0.226) 30%,  rgba(24, 48, 45, 0.4) 100%);
 }
 
 .links2 {
@@ -211,8 +214,8 @@ li.item2 {
     position: absolute;
     background: rgb(101, 90, 110);
     border-radius: 25px;
-    top: 442px;
-    left: 648px;
+    top: 465px;
+    left: 50px;
     opacity: 0.3;
     text-align: center;    
 }
@@ -223,8 +226,8 @@ li.item2 {
     position: absolute;
     background: rgb(101, 90, 110);
     border-radius: 25px;
-    top: 572px;
-    left: 648px;
+    top: 568px;
+    left: 50px;
     opacity: 0.6;
     text-align: center;
 }
@@ -235,8 +238,8 @@ li.item2 {
     position: absolute;
     background: rgb(101, 90, 110);
     border-radius: 25px;
-    top: 703px;
-    left: 648px;
+    top: 671px;
+    left: 50px;
     opacity: 0.9;
     text-align: center;
 }

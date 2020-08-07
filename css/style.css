@@ -48,11 +48,12 @@ strong{
 
 .welcome {
     font-size: 25px;
-    color: royalblue;
+    color: rgb(8, 50, 114);
+    margin-left: 120px;
 }
 
 .background{
-    margin: 30px;
+    margin: 0px 30px 30px 30px;
     padding: 30px;
     width: 250px;
     height: 250px;
@@ -60,6 +61,17 @@ strong{
     background-image: url(../img/sth.png);
     background-repeat: no-repeat;
     background-position: 100% 22%;
+    background-size: 270px;
+    display: inline-block;
+}
+
+.background2{
+    margin: 0px 30px 30px 30px;
+    padding: 30px;
+    width: 250px;
+    height: 250px;
+    background: url(../img/sth.png) no-repeat 100% 22%;
+    /*background-color: darkslategrey;*/
     background-size: 270px;
     display: inline-block;
 }

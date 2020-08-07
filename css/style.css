@@ -175,6 +175,7 @@ li.item2 {
     background: -moz-linear-gradient( left, rgb(211, 211, 211, 0.226) 30%,  rgba(24, 48, 45, 0.4) 100%);
     background: -webkit-linear-gradient(left, rgb(211, 211, 211, 0.226) 30%,  rgba(24, 48, 45, 0.4) 100%);
     background: linear-gradient(lleft, rgb(211, 211, 211, 0.226) 30%,  rgba(24, 48, 45, 0.4) 100%);
+    box-shadow: 5px 5px 25px 1px rgba(102, 98, 98, 0.651);
 }
 
 .links2 {

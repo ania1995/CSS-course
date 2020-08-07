@@ -1,23 +1,21 @@
 #main{
-    width: 1400px;
-    margin: 0 auto;
-    height: 250px;
+    margin: 10px auto;
     padding: 20px;
 }
 
 #main h1{
     background: rgba(200, 200, 200, 0.699);
-    width: 1200px;
-    height: 30px;
+    height: auto;
     padding: 20px;
+    margin: 10px auto;
 }
 
 /*Border*/
 
 .box{
     padding: 20px;
-    margin: 40px 20px 20px 20px;
-    float: left;
+    margin: 20px;
+    display: inline-block;
     /*border-top-width: 2px;
     border-top-style: solid;
     border-top-color: grey;*/
@@ -25,35 +23,36 @@
 }
 
 .dashed{
-    border: 3px dashed grey
+    border: 3px dashed grey;
+    display: inline-block;
 }
 
 .dotted{
-    border: 3px dotted grey
+    border: 3px dotted grey;
 }
 
 .double{
-    border: 10px double grey
+    border: 10px double grey ;
 }
 
 .groove{
-    border: 20px groove grey
+    border: 20px groove grey ;
 }
 
 .inset{
-    border: 20px inset grey
+    border: 20px inset grey ;
 }
 
 .outset{
-    border: 20px outset grey
+    border: 20px outset grey ;
 }   
 
 .ridge{
-    border: 20px ridge grey
+    border: 20px ridge grey ;
 }
 
 .solid{
-    border: 3px solid grey
+    border: 3px solid grey ;
 }
 
 /*Blocks and Inlines element*/

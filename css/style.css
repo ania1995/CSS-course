@@ -158,9 +158,12 @@ li.item2 {
 
 .links3 {
     border: 1px solid #000;
-    margin-top: 10px;
-    margin-left: 20px;
-    padding-left: 15px;
-    width: 300px;
-    
+    padding: 15px;
+    width: 300px; 
+    margin: 10px;
+}
+
+.links3 a{
+    display: list-item;  
+    margin: 2px auto 2px 20px; 
 }
